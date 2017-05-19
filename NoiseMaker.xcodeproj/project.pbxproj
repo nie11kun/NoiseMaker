@@ -13,6 +13,11 @@
 		A9F3B0231ECBCEE6004625D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F3B0221ECBCEE6004625D3 /* Assets.xcassets */; };
 		A9F3B0261ECBCEE6004625D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F3B0241ECBCEE6004625D3 /* LaunchScreen.storyboard */; };
 		A9F3B0311ECBCEE6004625D3 /* NoiseMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F3B0301ECBCEE6004625D3 /* NoiseMakerTests.swift */; };
+		A9F3B03F1ECBD63D004625D3 /* applause.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9F3B03B1ECBD63D004625D3 /* applause.wav */; };
+		A9F3B0401ECBD63D004625D3 /* bubbles.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9F3B03C1ECBD63D004625D3 /* bubbles.wav */; };
+		A9F3B0411ECBD63D004625D3 /* guitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9F3B03D1ECBD63D004625D3 /* guitar.wav */; };
+		A9F3B0421ECBD63D004625D3 /* monster.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9F3B03E1ECBD63D004625D3 /* monster.wav */; };
+		A9F3B0441ECBE7CD004625D3 /* NoiseMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F3B0431ECBE7CD004625D3 /* NoiseMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		A9F3B02C1ECBCEE6004625D3 /* NoiseMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoiseMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F3B0301ECBCEE6004625D3 /* NoiseMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiseMakerTests.swift; sourceTree = "<group>"; };
 		A9F3B0321ECBCEE6004625D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F3B03B1ECBD63D004625D3 /* applause.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = applause.wav; sourceTree = "<group>"; };
+		A9F3B03C1ECBD63D004625D3 /* bubbles.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubbles.wav; sourceTree = "<group>"; };
+		A9F3B03D1ECBD63D004625D3 /* guitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitar.wav; sourceTree = "<group>"; };
+		A9F3B03E1ECBD63D004625D3 /* monster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = monster.wav; sourceTree = "<group>"; };
+		A9F3B0431ECBE7CD004625D3 /* NoiseMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoiseMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +89,14 @@
 			children = (
 				A9F3B01B1ECBCEE6004625D3 /* AppDelegate.swift */,
 				A9F3B01D1ECBCEE6004625D3 /* ViewController.swift */,
+				A9F3B0431ECBE7CD004625D3 /* NoiseMaker.swift */,
 				A9F3B01F1ECBCEE6004625D3 /* Main.storyboard */,
 				A9F3B0221ECBCEE6004625D3 /* Assets.xcassets */,
 				A9F3B0241ECBCEE6004625D3 /* LaunchScreen.storyboard */,
+				A9F3B03B1ECBD63D004625D3 /* applause.wav */,
+				A9F3B03C1ECBD63D004625D3 /* bubbles.wav */,
+				A9F3B03D1ECBD63D004625D3 /* guitar.wav */,
+				A9F3B03E1ECBD63D004625D3 /* monster.wav */,
 				A9F3B0271ECBCEE6004625D3 /* Info.plist */,
 			);
 			path = NoiseMaker;
@@ -181,9 +196,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F3B0421ECBD63D004625D3 /* monster.wav in Resources */,
+				A9F3B0411ECBD63D004625D3 /* guitar.wav in Resources */,
 				A9F3B0261ECBCEE6004625D3 /* LaunchScreen.storyboard in Resources */,
+				A9F3B0401ECBD63D004625D3 /* bubbles.wav in Resources */,
 				A9F3B0231ECBCEE6004625D3 /* Assets.xcassets in Resources */,
 				A9F3B0211ECBCEE6004625D3 /* Main.storyboard in Resources */,
+				A9F3B03F1ECBD63D004625D3 /* applause.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9F3B01E1ECBCEE6004625D3 /* ViewController.swift in Sources */,
+				A9F3B0441ECBE7CD004625D3 /* NoiseMaker.swift in Sources */,
 				A9F3B01C1ECBCEE6004625D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
